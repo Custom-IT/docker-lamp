@@ -1,0 +1,5 @@
+2018/05/31 07:31:04 [error] 8#8: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/05/31 07:44:24 [error] 5#5: *4 open() "/var/www/hello.dev/robots.txt" failed (2: No such file or directory), client: 172.18.0.1, server: hello.local, request: "GET /robots.txt HTTP/1.1", host: "hello.local"
+2018/05/31 07:44:31 [error] 5#5: *2 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.local, request: "GET /favicon.ico HTTP/1.1", host: "hello.local", referrer: "http://hello.local/"
+[Thu May 31 12:36:04.300370 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.33 (Ubuntu) configured -- resuming normal operations
+[Thu May 31 12:36:04.316561 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
