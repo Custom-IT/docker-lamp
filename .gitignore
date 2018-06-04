@@ -1,0 +1,6 @@
+/mysql
+/logs
+/www/*
+!/www/hello.dev/
+/hosts/*
+!/hosts/hello-dev.conf
