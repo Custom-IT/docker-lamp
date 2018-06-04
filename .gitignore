@@ -1,5 +1,5 @@
-/mysql
-/logs
+/mysql/*
+/logs/*
 /www/*
 !/www/hello.dev/
 /hosts/*
